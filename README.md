@@ -20,17 +20,18 @@ Read the tutorial blog: [Building a cli app for AWS](https://medium.com/p/6ebbe
 
 ## Setup and Usage
 
-Install the dependencies
+1. Install the dependencies
 
-`python3 -m pip install -r requirements.txt`
+    `python3 -m pip install -r requirements.txt`
 
-```bash
-# Running the script
+2. Ensure AWS environment variables/credentials are properly set
 
-python3 aws_single_pane.py  # single pane example
-python3 aws_dual_pane.py  # dual pane example
-```
-Press `s` to see `SQS queues`, `b` to list `buckets` & `q` to `quit` the app
+3. Running the script
+    ```bash
+    python3 aws_single_pane.py  # single pane example
+    python3 aws_dual_pane.py  # dual pane example
+    ```
+4. Press `s` to see `SQS queues`, `b` to list `buckets` & `q` to `quit` the app
 
 
 ## License
